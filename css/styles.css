@@ -3,6 +3,7 @@ header {
   color: white;
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
+  width: 100%;
 }
 
 h1 {
@@ -42,4 +43,6 @@ button {
   position: relative;
   left: 30rem;
   top: 1rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
 }

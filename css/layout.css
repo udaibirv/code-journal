@@ -32,3 +32,43 @@
     width: 50%;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    position: relative;
+    left: 7%;
+  }
+
+  h1 {
+    position: relative;
+    left: 2%;
+  }
+
+  .image {
+    width: 90%;
+    position: relative;
+    left: 3%;
+  }
+
+  fieldset {
+    position: relative;
+    top: 3%;
+  }
+
+  textarea {
+    width: 100%;
+    position: relative;
+    left: 0.8rem;
+  }
+
+  .bio-header {
+    position: relative;
+    left: 1rem;
+  }
+
+  .save-button {
+    position: relative;
+    top: 10%;
+    right: 50%;
+  }
+}
