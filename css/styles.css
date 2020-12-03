@@ -1,0 +1,60 @@
+body {
+  background-color: #f1f0ea;
+}
+
+header {
+  background-color: #6290c8;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  position: relative;
+  left: 21%;
+  background-color: #6290c8;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+}
+
+img {
+  width: 30%;
+}
+
+fieldset {
+  border: none;
+  display: inline;
+  line-height: 1.9rem;
+}
+
+label {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+}
+
+.bio {
+  position: relative;
+  top: 10%;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
+}
+
+button {
+  position: relative;
+  left: 30rem;
+  top: 1rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
+  background-color: #6290c8;
+  color: white;
+  width: 3rem;
+}

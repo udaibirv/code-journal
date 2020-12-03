@@ -12,12 +12,63 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
+    <h2>Code Journal</h2>
   </header>
   <main>
-    <div data-view="edit-profile"></div>
+  <div data-view="edit-profile"></div>
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="column-full">
+            <h1>Edit Profile</h1>
+            <img src="images/placeholder-image-square.jpg" alt="placeholder-image" class="image">
+            <fieldset>
+              <div class="form-section">
+                <div class="header">
+                  <label for="avatarUrl">Avatar URL</label>
+                </div>
+                <input required type="url" name="avatarUrl" id="avatarUrl" class="form-input">
+              </div>
+              <div class="form-section">
+                <div class="header">
+                  <label for="username">Username</label>
+                </div>
+                <input required name="username" type="text" id="userName" class="form-input">
+              </div>
+              <div class="form-section">
+                <div class="header">
+                  <label for="fullName">Full Name</label>
+                </div>
+                <input required name="fullName" type="text" id="fullName" class="form-input">
+              </div>
+              <div class="form-section">
+                <div class="header">
+                  <label for="location">Location</label>
+                </div>
+                <input required type="text" name="location" id="location" class="form-input">
+              </div>
+            </fieldset>
+          </div>
+          <div class="column-half">
+            <div class="bio">
+              <div class="bio-header">
+                <label for="bio-text">Bio</label>
+              </div>
+              <textarea required name="bio" rows="6" cols="70"></textarea>
+            </div>
+            <div class="save-button">
+              <button type="submit">Save</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
   </main>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
