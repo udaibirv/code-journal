@@ -13,5 +13,9 @@ function handleSubmit() {
   data.avatarUrl = $form.elements.avatarUrl.value;
   data.bio = $form.elements.bio.value;
   $form.reset();
-
+  localStorage.setItem('username', data.username);
+  localStorage.setItem('fullName', data.fullName);
+  localStorage.setItem('location', data.location);
+  localStorage.setItem('avatarUrl', data.avatarUrl);
+  localStorage.setItem('bio', data.bio);
 }
