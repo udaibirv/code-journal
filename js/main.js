@@ -12,5 +12,6 @@ function handleSubmit() {
   data.location = $form.elements.location.value;
   data.avatarUrl = $form.elements.avatarUrl.value;
   data.bio = $form.elements.bio.value;
+  $form.reset();
 
 }
