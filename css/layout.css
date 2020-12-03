@@ -34,9 +34,9 @@
 }
 
 @media only screen and (max-width: 768px) {
-  h2 {
+  header {
     position: relative;
-    left: 7%;
+    right: 13%;
   }
 
   h1 {
