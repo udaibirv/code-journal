@@ -1,4 +1,4 @@
-var $url = document.querySelector('.avatarUrl');
+var $url = document.getElementById('avatarUrl');
 var $image = document.querySelector('.image');
 $url.addEventListener('input', handleInput);
 function handleInput(e) {

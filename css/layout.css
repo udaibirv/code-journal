@@ -36,41 +36,48 @@
 @media only screen and (max-width: 768px) {
   header {
     position: relative;
-    right: 13%;
+    right: 17%;
   }
 
   h1 {
     position: relative;
-    left: 2%;
+    bottom: 4%;
+    right: 3%;
   }
 
   .image {
     width: 90%;
     position: relative;
-    left: 3%;
+    bottom: 3%;
+    right: 2.5%;
+  }
+
+  .form-input {
+    width: 250%;
   }
 
   fieldset {
     position: relative;
-    top: 2%;
+    bottom: 2%;
+    right: 7%;
   }
 
   textarea {
-    width: 100%;
+    width: 90%;
     position: relative;
-    left: 0.8rem;
-    bottom: 0.8rem;
+    right: 0.6rem;
+    bottom: 2rem;
   }
 
   .bio-header {
     position: relative;
-    left: 1rem;
-    bottom: 0.8rem;
+    right: 0.5rem;
+    bottom: 2rem;
   }
 
   .save-button {
     position: relative;
-    right: 70%;
-    bottom: 0.7rem;
+    right: 80%;
+    bottom: 1.7rem;
   }
 }
