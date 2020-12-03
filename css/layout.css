@@ -52,23 +52,25 @@
 
   fieldset {
     position: relative;
-    top: 3%;
+    top: 2%;
   }
 
   textarea {
     width: 100%;
     position: relative;
     left: 0.8rem;
+    bottom: 0.8rem;
   }
 
   .bio-header {
     position: relative;
     left: 1rem;
+    bottom: 0.8rem;
   }
 
   .save-button {
     position: relative;
-    top: 10%;
-    right: 50%;
+    right: 70%;
+    bottom: 0.7rem;
   }
 }
