@@ -80,4 +80,13 @@
     right: 80%;
     bottom: 1.7rem;
   }
+
+  .edit-image {
+    width: 80%;
+  }
+
+  .fa-anchor {
+    position: relative;
+    top: 25%;
+  }
 }

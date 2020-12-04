@@ -58,3 +58,23 @@ button {
   color: white;
   width: 3rem;
 }
+
+.fa-book-reader {
+  position: relative;
+  bottom: 45%;
+  left: 5%;
+}
+
+.fa-anchor {
+  position: relative;
+  bottom: 30%;
+  right: 13%;
+}
+
+.edit-bio {
+  width: 90%;
+  position: relative;
+  left: 35%;
+  bottom: 25%;
+  line-height: 1.6;
+}
