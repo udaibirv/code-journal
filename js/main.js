@@ -1,3 +1,8 @@
+var dataItem = JSON.parse(localStorage.getItem('data'));
+if (dataItem !== null) {
+  dataItem = data;
+}
+
 var $url = document.getElementById('avatarUrl');
 var $image = document.querySelector('.image');
 $url.addEventListener('input', handleInput);

@@ -12,7 +12,9 @@ var data = {
   entries: []
 
 };
+
 window.addEventListener('beforeunload', function () {
   var stringData = JSON.stringify(data);
   localStorage.setItem('data', stringData);
+
 });
