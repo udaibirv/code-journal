@@ -12,6 +12,10 @@ var data = {
   entries: []
 
 };
+var jsonData = JSON.parse(localStorage.getItem('profileData'));
+if (jsonData !== null) {
+  jsonData = data;
+}
 
 window.addEventListener('beforeunload', function (event) {
   var stringData = JSON.stringify(data);

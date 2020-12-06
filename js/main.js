@@ -1,9 +1,4 @@
 
-var jsonData = JSON.parse(localStorage.getItem('profileData'));
-if (jsonData !== null) {
-  jsonData = data;
-}
-
 var $url = document.getElementById('avatarUrl');
 var $image = document.querySelector('.image');
 $url.addEventListener('input', handleInput);
