@@ -1,6 +1,7 @@
-var dataItem = JSON.parse(localStorage.getItem('data'));
-if (dataItem !== null) {
-  dataItem = data;
+
+var jsonData = JSON.parse(localStorage.getItem('profileData'));
+if (jsonData !== null) {
+  jsonData = data;
 }
 
 var $url = document.getElementById('avatarUrl');
@@ -11,12 +12,13 @@ function handleInput(e) {
 }
 var $form = document.querySelector('form');
 $form.addEventListener('submit', handleSubmit);
-function handleSubmit() {
-  data.username = $form.elements.username.value;
-  data.fullName = $form.elements.fullName.value;
-  data.location = $form.elements.location.value;
-  data.avatarUrl = $form.elements.avatarUrl.value;
-  data.bio = $form.elements.bio.value;
+function handleSubmit(event) {
+  event.preventDefault();
+  data.profile.username = $form.elements.username.value;
+  data.profile.fullName = $form.elements.fullName.value;
+  data.profile.location = $form.elements.location.value;
+  data.profile.avatarUrl = $form.elements.avatarUrl.value;
+  data.profile.bio = $form.elements.bio.value;
   $form.reset();
 
 }

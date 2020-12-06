@@ -13,8 +13,8 @@ var data = {
 
 };
 
-window.addEventListener('beforeunload', function () {
+window.addEventListener('beforeunload', function (event) {
   var stringData = JSON.stringify(data);
-  localStorage.setItem('data', stringData);
+  localStorage.setItem('profileData', stringData);
 
 });
